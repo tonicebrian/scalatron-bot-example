@@ -1,0 +1,14 @@
+import AssemblyKeys._ // put this at the top of the file
+
+name := "ScalatronBot"
+
+scalaVersion := "2.11.1"
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "2.2.1" % "test"
+  , "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.2"
+)
+
+assemblySettings
+
+jarName in assembly := "ScalatronBot.jar"
