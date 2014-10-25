@@ -1,24 +1,22 @@
-Quick template for Scalatron bot projects: see http://scalatron.wordpress.com/
+Fork of an old Scalatron template with convinience parsing of messages from and
+to the server
 
 # How to do stuff:
 
-* Build (produces target/scala-2.9.0-1/ScalatronBot.jar)
+* Build (produces target/scala-2.11/ScalatronBot.jar)
 
-    $ ./sbt package 
+    $ sbt package 
 
 
 * Continuous build (handy to leave running while you edit)
 
-    $ ./sbt ~compile
+    $ sbt ~compile
        
 * Load code in interactive Scala interpreter
 
-    $ ./sbt console
+    $ sbt console
 
 * Delete compiled output
 
-    $ ./sbt clean
+    $ sbt clean
     
-# For more info on the build
-
-Check out the SBT wiki at https://github.com/harrah/xsbt/wiki
